@@ -21,3 +21,5 @@ Run these command on command prompt
 > npm install webtorrent-cli -g
 
 Now run Windows/streamer.py
+
+To get all the available option keep it fullscreen after fetching the movies
