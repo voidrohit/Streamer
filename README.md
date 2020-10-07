@@ -35,6 +35,8 @@ To get all the available option keep it fullscreen after fetching the movies
 
 This should install node.js and npm on your PC
 
+> pip3 install requests
+
 > sudo npm install webtorrent-cli -g
 
 It is suggested to install VLC in your PC. Read installation instruction [here](https://www.videolan.org/vlc/)
