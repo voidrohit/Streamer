@@ -19,3 +19,5 @@ Run these command on command prompt
 > pip install npm
 
 > npm install webtorrent-cli -g
+
+Now run Windows/streamer.py
