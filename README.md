@@ -1,4 +1,4 @@
-# Streamer
+# Streamer :movie_camera:
 Stream movies using torrent links 
 
 ## How to use
