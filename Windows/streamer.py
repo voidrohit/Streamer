@@ -4,8 +4,9 @@ import subprocess
 import sys
 
 root = Tk()
-HEIGHT = 1000
-WIDTH = 1400
+root.title('Movie Streamer')
+HEIGHT = 600
+WIDTH = 900
 
 canvas = Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
@@ -61,9 +62,9 @@ def main(entry1):
 		def link():
 			text.insert("0.0", magnet_link)
 
-		entry_button = Button(link_frame, text="Enter to get link", command=lambda:link())
+		entry_button = Button(link_frame, text="Enter to get link and paste the link to webtorrent app", command=lambda:link())
 		entry_button.config(font=("Yu Gothic UI Semibold",15))
-		entry_button.place(relx=0.4, rely=0.7)
+		entry_button.place(relx=0.25, rely=0.7)
 
 		window.mainloop()
 
